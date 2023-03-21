@@ -30,19 +30,6 @@ function IndividualIntervalsExample() {
           <p>I am a software developer</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://s3.eu-west-1.amazonaws.com/redsys-prod/articles/eac8c6d69d1ce8ce0ff8824d/images/teaserImage_xxxx_croppedTeaserImage.jpg"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Click on the links in the navbar</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
   );
 }
