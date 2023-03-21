@@ -10,12 +10,12 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1594645715165/q01-kk5fR.png"
+          src="https://lazyd3v.com/images/previews/hello.jpeg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Portfolio - Aaliya Ladha</h3>
+          <p>Showcasing projects.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
