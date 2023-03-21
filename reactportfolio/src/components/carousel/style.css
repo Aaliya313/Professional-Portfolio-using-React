@@ -3,5 +3,14 @@
 }
 
 .d-block {
-    height: 600px
+    height: 500px
+}
+
+
+
+#avatar {
+    width: 500px;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
 }

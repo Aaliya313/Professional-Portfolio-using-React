@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 <Link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'></Link>
 
 
+
 function IndividualIntervalsExample() {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 " 
           src="https://lazyd3v.com/images/previews/hello.jpeg"
           alt="First slide"
         />
@@ -20,13 +21,13 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
-          className="d-block w-100"
-          src="https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png"
+          className="d-block" id="avatar"
+          src="https://i.pinimg.com/originals/68/29/b8/6829b881ae314429369d7743331d48ea.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>About me!</h3>
+          <p>I am a software developer</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,7 +37,7 @@ function IndividualIntervalsExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Click on the links in the navbar</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
