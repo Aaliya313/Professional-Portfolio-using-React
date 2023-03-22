@@ -1,5 +1,6 @@
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
+import Flex from "../../components/flexboxprojects/flexbox";
 
 
 function Projectpage() {
@@ -15,7 +16,7 @@ function Projectpage() {
       <br />
       <br />
       <br />
-      <br />
+      <Flex />
       <br />
       <br />
       <br />

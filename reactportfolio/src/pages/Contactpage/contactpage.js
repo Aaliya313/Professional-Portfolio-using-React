@@ -11,18 +11,6 @@ function Contactpage() {
       <br />
       <Mainbody />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </div>
   );
